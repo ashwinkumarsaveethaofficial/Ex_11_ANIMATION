@@ -21,10 +21,10 @@ Program to display animation operation”.
 Developed by: Ashwinkumar S
 Registeration Number : 212222040020
 ```
-
+```
 ## OUTPUT
 ## In activity_main.xml
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -117,7 +117,7 @@ Registeration Number : 212222040020
 ```
 
 ## MainActivity.java
-```
+
 package com.example.ex_9;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -179,9 +179,9 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-```
+
 ## blink.xml
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha android:fromAlpha="0.0"
@@ -191,9 +191,9 @@ public class MainActivity extends AppCompatActivity {
         android:repeatMode="reverse"
         android:repeatCount="infinite"/>
 </set>
-```
+
 ## clockwise.xml
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -215,9 +215,9 @@ public class MainActivity extends AppCompatActivity {
     </rotate>
 </set>
 
-```
+
 ## Fade.xml
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:interpolator="@android:anim/accelerate_interpolator">
@@ -235,9 +235,9 @@ public class MainActivity extends AppCompatActivity {
 
 </set>
 
-```
+
 ## Myanimation.xml
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <scale xmlns:android="http://schemas.android.com/apk/res/android"
@@ -262,11 +262,11 @@ public class MainActivity extends AppCompatActivity {
     </scale>
 </set>
 
-```
+
 
 ## Slide.xml
 
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true" >
@@ -279,9 +279,9 @@ public class MainActivity extends AppCompatActivity {
         android:toYScale="0.0" />
 </set>
 
-```
+
 ## Zoom.xml
-```
+
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true" >
